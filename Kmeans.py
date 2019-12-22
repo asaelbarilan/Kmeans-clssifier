@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 # Open the file
-xlsx = pd.ExcelFile('./EMR-Blood.xlsx')
+xlsx = pd.ExcelFile('./Bloodtests.xlsx')
 
 # Get the first sheet as an object
 sheet1 = xlsx.parse(0)
